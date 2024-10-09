@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Location
+https://github.com/toriiy/may-2024-react
 
 ## Available Scripts
 
