@@ -1,0 +1,12 @@
+.userDiv {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: justify;
+}
+
+.userDiv button {
+    background-color: aliceblue;
+    height: 35px;
+    width: 160px;
+}
