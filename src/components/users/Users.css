@@ -1,0 +1,11 @@
+.usersGridDiv {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 25px;
+}
+
+.heading {
+    text-align: center;
+}
