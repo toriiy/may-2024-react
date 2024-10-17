@@ -1,11 +1,12 @@
 import React, {FC} from 'react';
 import {IUser} from "../../models/IUser";
-import './User.css'
+import './CurrentUser.css'
+import {Link} from "react-router-dom";
 
 type UserProps = {
     user: IUser
 }
-const User: FC<UserProps> = ({user}) => {
+const CurrentUser: FC<UserProps> = ({user}) => {
     return (
         <div className={'userDiv'}>
             <h2>Id: {user.id}</h2>
@@ -32,8 +33,9 @@ const User: FC<UserProps> = ({user}) => {
                 <p>Catch phrase: {user.company.catchPhrase}</p>
                 <p>Bs: {user.company.bs}</p>
             </div>
+            <Link to={'user-posts'}>Show posts of user</Link>
         </div>
     );
 };
 
-export default User;
+export default CurrentUser;

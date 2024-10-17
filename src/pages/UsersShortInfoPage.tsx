@@ -1,7 +1,7 @@
 import React from 'react';
 import Users from "../components/users/Users";
 
-const UsersPage = () => {
+const UsersShortInfoPage = () => {
     return (
         <div>
             <Users/>
@@ -9,4 +9,4 @@ const UsersPage = () => {
     );
 };
 
-export default UsersPage;
+export default UsersShortInfoPage;

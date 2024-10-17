@@ -1,6 +1,7 @@
-.userDiv {
+.userPostDiv {
     border: 1px solid black;
     text-align: justify;
+    width: 400px;
     padding: 10px;
     background-color: whitesmoke;
 }
