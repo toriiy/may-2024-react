@@ -1,0 +1,21 @@
+.menuNav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navLink:hover {
+    color: #121265;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
